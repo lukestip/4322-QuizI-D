@@ -23,9 +23,10 @@ empIncrease = {}
 for i in infile:
     # check if the employee fits the search criteria
     if i[3] == 'Marketing' and i[4] == 'CSR':
-        print(f'Manager Name: {i[1]} {i[2]} Current Salary: ${i[5]}.00')
+        print(
+            f'Manager Name: {i[1]} {i[2]} Current Salary: ${float(i[5]):,.2f}')
         empName = i[1]+' '+i[2]
-        empIncrease[empName] = round(float(i[5])*1.1)
+        empIncrease[empName] = float(i[5])*1.1
 
 
 print()
@@ -34,4 +35,4 @@ print()
 
 # iternate through the dictionary and print out the key and value as per printout
 for k, v in empIncrease.items():
-    print(f'Manager Name: {k} New Salary: ${v}.00')
+    print(f'Manager Name: {k} New Salary: ${v:,.2f}')
