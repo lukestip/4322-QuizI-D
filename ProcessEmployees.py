@@ -1,7 +1,7 @@
 '''
 Due the outstanding performance of the Customer Service Represetatives (CSRs) in the marketing department, management
 has decided to reward them with a 10% increase in their salary. To evaluate the impact on the budget, you have been
-asked to run a report on the employee file and display the results of before and after the salary increase.
+asked to run a report on the employee file and display the results of BEFORE AND AFTER the salary increase.
 
 You will create a dictionary that has the full employee name as the key and ONLY their new salary as the value.
 
